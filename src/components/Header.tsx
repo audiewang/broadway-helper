@@ -20,7 +20,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/compare" className="hover:text-primary font-semibold text-blue-600">
+              <Link href="/compare-v2" className="hover:text-primary font-semibold text-blue-600">
                 Compare Prices
               </Link>
             </li>
