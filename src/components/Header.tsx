@@ -15,13 +15,8 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/real-compare" className="hover:text-primary font-semibold text-green-600">
-                Real Prices
-              </Link>
-            </li>
-            <li>
-              <Link href="/admin" className="hover:text-primary text-gray-600">
-                Data Entry
+              <Link href="/smart-compare" className="hover:text-primary font-semibold text-blue-600">
+                Smart Prices
               </Link>
             </li>
           </ul>
