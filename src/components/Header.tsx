@@ -10,13 +10,18 @@ export default function Header() {
           </Link>
           <ul className="flex space-x-6">
             <li>
+              <Link href="/" className="hover:text-primary">
+                Home
+              </Link>
+            </li>
+            <li>
               <Link href="/shows" className="hover:text-primary">
                 Shows
               </Link>
             </li>
             <li>
-              <Link href="/" className="hover:text-primary">
-                Home
+              <Link href="/compare" className="hover:text-primary font-semibold text-blue-600">
+                Compare Prices
               </Link>
             </li>
           </ul>

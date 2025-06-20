@@ -11,15 +11,18 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test:scraping": "node scripts/test-scraping.js",
-    "test:live": "next dev & sleep 3 && open http://localhost:3000/test-live"
+    "test:live": "next dev & sleep 3 && open http://localhost:3000/test-live",
+    "test:scrapers": "tsx scripts/test-scrapers.ts"
   },
   "dependencies": {
+    "@playwright/test": "^1.53.1",
     "clsx": "^2.1.1",
     "dotenv": "^16.3.1",
     "drizzle-orm": "^0.29.1",
     "lucide-react": "^0.309.0",
     "next": "^14.2.5",
     "pg": "^8.11.3",
+    "playwright": "^1.53.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwind-merge": "^2.3.0"
@@ -39,6 +42,7 @@
     "prettier": "^3.3.2",
     "prettier-plugin-tailwindcss": "^0.6.5",
     "tailwindcss": "^3.4.17",
+    "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   }
 }
