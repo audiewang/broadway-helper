@@ -9,7 +9,9 @@
     "lint": "next lint",
     "type-check": "tsc --noEmit",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "test:scraping": "node scripts/test-scraping.js",
+    "test:live": "next dev & sleep 3 && open http://localhost:3000/test-live"
   },
   "dependencies": {
     "clsx": "^2.1.1",
