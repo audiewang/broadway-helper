@@ -1,0 +1,61 @@
+
+{
+  "shows": [
+    {
+      "name": "Maybe Happy Ending",
+      "slug": "maybe-happy-ending",
+      "theater": "Booth Theatre",
+      "closing_date": "2025-08-31",
+      "special_notes": "Darren Criss leaving Aug 31",
+      "official_site": "telecharge",
+      "sections": {
+        "Orchestra Center": { "rows": "A-S", "typical_price": "$279-$379" },
+        "Orchestra Left/Right": { "rows": "A-S", "typical_price": "$179-$279" },
+        "Mezzanine": { "rows": "A-F", "typical_price": "$149-$229" }
+      }
+    },
+    {
+      "name": "Sunset Blvd.",
+      "slug": "sunset-blvd",
+      "theater": "St. James Theatre",
+      "official_site": "telecharge",
+      "sections": {
+        "Orchestra Center": { "rows": "A-V", "typical_price": "$299-$499" },
+        "Orchestra Left/Right": { "rows": "A-V", "typical_price": "$199-$399" },
+        "Mezzanine": { "rows": "A-F", "typical_price": "$179-$299" }
+      }
+    },
+    {
+      "name": "Oh, Mary!",
+      "slug": "oh-mary",
+      "theater": "Broadway Theatre",
+      "official_site": "telecharge",
+      "sections": {
+        "Orchestra": { "rows": "A-Z", "typical_price": "$89-$189" },
+        "Mezzanine": { "rows": "A-E", "typical_price": "$69-$149" }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "name": "Telecharge",
+      "type": "official",
+      "has_rewards": true,
+      "base_url": "https://www.telecharge.com"
+    },
+    {
+      "name": "Theatr",
+      "type": "resale",
+      "has_rewards": false,
+      "typical_markup": "0%",
+      "base_url": "https://www.theatr.com"
+    },
+    {
+      "name": "StubHub",
+      "type": "resale",
+      "has_rewards": false,
+      "typical_markup": "25-50%",
+      "base_url": "https://www.stubhub.com"
+    }
+  ]
+}

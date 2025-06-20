@@ -1,0 +1,68 @@
+{
+    "theaters": [
+      {
+        "name": "Richard Rodgers Theatre",
+        "slug": "richard-rodgers",
+        "address": "226 West 46th Street",
+        "sections": {
+          "Orchestra": {
+            "quality_score": 5,
+            "price_range": "$150-$450",
+            "tip": "Center orchestra rows F-M offer the best views. Avoid partial view seats in far sides."
+          },
+          "Mezzanine": {
+            "quality_score": 4,
+            "price_range": "$100-$250",
+            "tip": "Front mezzanine (rows A-C) often better than rear orchestra. Great for full stage view."
+          }
+        }
+      },
+      {
+        "name": "Gershwin Theatre",
+        "slug": "gershwin",
+        "address": "222 West 51st Street",
+        "sections": {
+          "Orchestra": {
+            "quality_score": 5,
+            "price_range": "$120-$350",
+            "tip": "Largest Broadway theater. Sit center for Wicked's dragon effect."
+          },
+          "Mezzanine": {
+            "quality_score": 4,
+            "price_range": "$80-$200",
+            "tip": "Higher mezzanine is quite far but still good views."
+          }
+        }
+      }
+    ],
+    "shows": [
+      {
+        "name": "Hamilton",
+        "slug": "hamilton",
+        "theater": "Richard Rodgers Theatre",
+        "fun_fact": "The show's lottery offers $10 tickets, but odds are about 1 in 300.",
+        "newbie_tip": "Don't stress about perfect seats - the staging works well from anywhere. The music carries the show."
+      },
+      {
+        "name": "Wicked",
+        "slug": "wicked",
+        "theater": "Gershwin Theatre",
+        "fun_fact": "Running since 2003, it's Broadway's 4th longest-running show.",
+        "newbie_tip": "Arrive early to take photos at the giant mechanical dragon in the lobby!"
+      }
+    ],
+    "educational_content": {
+      "first_timer_tips": [
+        "Orchestra doesn't always mean better - front mezzanine often has superior views",
+        "Service fees can add 20-30% to the advertised price",
+        "Wednesday matinees have an older, quieter audience",
+        "Rush tickets are same-day discounted tickets, usually requiring morning wait"
+      ],
+      "common_mistakes": [
+        "Buying from street sellers (often fake tickets)",
+        "Not checking the theater location (some are far from subway)",
+        "Assuming partial view means slightly obstructed (it can mean seeing only half the stage)",
+        "Waiting too long for popular shows (prices only go up)"
+      ]
+    }
+  }
