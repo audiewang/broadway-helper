@@ -15,13 +15,13 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/shows" className="hover:text-primary">
-                Shows
+              <Link href="/real-compare" className="hover:text-primary font-semibold text-green-600">
+                Real Prices
               </Link>
             </li>
             <li>
-              <Link href="/compare-v2" className="hover:text-primary font-semibold text-blue-600">
-                Compare Prices
+              <Link href="/admin" className="hover:text-primary text-gray-600">
+                Data Entry
               </Link>
             </li>
           </ul>
